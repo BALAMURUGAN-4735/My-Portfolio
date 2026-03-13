@@ -396,7 +396,12 @@ export default function Portfolio() {
               style={{ background:"linear-gradient(135deg,#6366f1,#4f46e5)", color:"#fff", border:"none", borderRadius:12, padding:"14px 32px", fontSize:15, fontWeight:700, cursor:"pointer" }}>
               View My Work →
             </button>
-            <a href="#" download style={{ background:"transparent", color:"#818cf8", border:"1px solid rgba(99,102,241,0.45)", borderRadius:12, padding:"14px 32px", fontSize:15, fontWeight:600, textDecoration:"none" }}>
+            {/* 👁️ View Button — opens in new tab */}
+            <a href="/Balamurugan_BE(CSE)_2026_8.46-CGPA_Frontend.pdf"target="_blank"rel="noopener noreferrer"style={{background:"transparent", color:"#818cf8",border:"1px solid rgba(99,102,241,0.45)",borderRadius:12, padding:"14px 22px",fontSize:15, fontWeight:600, textDecoration:"none",display:"flex", alignItems:"center", gap:8 }}>
+             👁️ View Resume
+            </a>
+           {/* ⬇️ Download Button */}
+            <a href="/Balamurugan_BE(CSE)_2026_8.46-CGPA_Frontend.pdf" download style={{ background:"transparent", color:"#818cf8", border:"1px solid rgba(99,102,241,0.45)", borderRadius:12, padding:"14px 32px", fontSize:15, fontWeight:600, textDecoration:"none" }}>
               ⬇ Download Resume
             </a>
           </div>
