@@ -1,0 +1,77 @@
+/* App.css */
+#root {
+  width: 100% !important;
+  max-width: none !important; /* Idhu dhaan andha grey gap-a remove pannum */
+  margin: 0 !important;
+  padding: 0 20px; /* Idhu side-la konjam space tharum, illa na text wall-oda ottuna mari irukum */
+  text-align: center;
+}
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.hero-section {
+  width: 100%;       /* Full width vara idhu mukkiyam */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Items-a nalla spread pannum */
+  align-items: center;
+  width: 90%; /* Content-a rumba corner-ku poga vidama thadukkum */
+  margin: 0 auto;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Idhu cards-a screen center-ku kondu varum */
+  gap: 30px; /* Rendu card-ku naduvula nalla gap irukkum */
+  width: 100%;
+  padding: 40px 0;
+}
+
+.nav-logo {
+  display:flex; align-items:center;
+  margin-right:8px; padding:2px;
+}
