@@ -409,7 +409,7 @@ export default function Portfolio() {
         <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fit,minmax(280px,1fr))", gap:40, alignItems:"center", marginTop:48 }}>
           <div style={{ display:"flex", justifyContent:"center" }}>
             <div className="floating" style={{ width:220, height:220, borderRadius:"50%", background:"linear-gradient(135deg,#6366f1,#06b6d4)", padding:4 }}>
-              <div style={{ width:"100%", height:"100%", borderRadius:"50%", background:"#0f0f1a", display:"flex", alignItems:"center", justifyContent:"center", fontSize:72 }}><img src='Images/Professional_Image.jpg' alt="Image" style={{ width:"100%", height:"100%", borderRadius:"100%", objectFit:"cover", objectPosition:"center50%" }} /></div>
+              <div style={{ width:"100%", height:"100%", borderRadius:"50%", background:"#0f0f1a", display:"flex", alignItems:"center", justifyContent:"center", fontSize:72 }}><img src='/Profile_Image.jpg' alt="Balamurugan" style={{ width:"100%", height:"100%", borderRadius:"100%", objectFit:"cover", objectPosition:"center50%" }} /></div>
             </div>
           </div>
           <div>
