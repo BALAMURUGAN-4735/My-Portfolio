@@ -1,16 +1,79 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 👨‍💻 Balamurugan — Frontend Developer Portfolio
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌐 **[View Live Portfolio →](https://my-portfolio-bala.vercel.app)**
 
-## React Compiler
+</div>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ About
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+A modern, responsive personal portfolio built with **React + Vite**,
+showcasing my projects, skills, and experience as a Frontend Developer
+with a Full-Stack and QA mindset.
+
+---
+
+## 🚀 Features
+
+- ⚛️ Built with React + Vite
+- 🌙 Custom dark theme with smooth animations
+- 🧭 Floating pill navbar with active section tracking
+- 🃏 Project cards with GitHub & Live Demo links
+- 🗂️ Tabbed Skills section — Frontend · Database · Controls
+- 💼 Experience & Education timeline
+- 🏅 Certifications section
+- 📬 EmailJS contact form — messages direct to Gmail
+- 📱 Fully mobile responsive
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technologies |
+|----------|-------------|
+| Frontend | React, JavaScript, HTML, CSS, Bootstrap |
+| Backend | Node.js, Express |
+| Database | MongoDB |
+| Testing | Selenium, Postman |
+| Tools | Git, GitHub, VS Code, Vite |
+
+---
+
+## 📁 Projects
+
+### 🔍 Real-time Fake News Detection
+> College Project Expo Winner
+- ML-powered web tool that detects misleading news in real time
+- Returns credibility scores to combat misinformation
+- **Tech:** Python · NLP · React · REST API
+
+### 🚀 Quick-Courier-Service
+> Summer Internship Project
+- Full-stack courier management platform
+- Real-time package tracking & delivery scheduling
+- **Tech:** MongoDB · Express · React · Node.js
+
+---
+
+## 📬 Contact
+
+| Platform | Link |
+|----------|------|
+| 🌐 Portfolio | [my-portfolio-bala.vercel.app](https://my-portfolio-bala.vercel.app) |
+| 💼 LinkedIn | [linkedin.com/in/balamurugan](https://linkedin.com/in/balamurugan) |
+| 🐙 GitHub | [github.com/balamurugan](https://github.com/balamurugan) |
+
+---
+
+<div align="center">
+  <sub>Built with ❤️ using React · © 2025 Balamurugan</sub>
+</div>
