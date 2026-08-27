@@ -8,7 +8,7 @@
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
 
-🌐 **[View Live Portfolio →](https://my-portfolio-bala.vercel.app)**
+🌐 **[View Live Portfolio →]([https://my-portfolio-bala.vercel.app](https://my-portfolio-indol-tau-68.vercel.app/))**
 
 </div>
 
