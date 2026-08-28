@@ -10,11 +10,23 @@ const SKILL_CATEGORIES = [
     icon: "🖥️",
     accent: "#6366f1",
     skills: [
+      { name: "Angular", color: "#DD0031", icon: "🅰️" },
       { name: "React", color: "#61DAFB", icon: "⚛️" },
+      { name: "TypeScript", color: "#3178C6", icon: "TS" },
       { name: "JavaScript", color: "#F7DF1E", icon: "𝐉𝐒" },
-      { name: "HTML", color: "#E34F26", icon: "🌐" },
-      { name: "CSS", color: "#264DE4", icon: "🎨" },
-      { name: "Bootstrap", color: "#7952B3", icon: "🅱️" },
+      { name: "HTML5", color: "#E34F26", icon: "🌐" },
+      { name: "CSS3", color: "#264DE4", icon: "🎨" },
+    ],
+  },
+  {
+    key: "backend",
+    label: "Backend",
+    icon: "⚙️",
+    accent: "#3b82f6",
+    skills: [
+      { name: "Java", color: "#007396", icon: "☕" },
+      { name: "Spring Boot", color: "#6DB33F", icon: "🌱" },
+      { name: "Spring Cloud", color: "#6DB33F", icon: "☁️" },
     ],
   },
   {
@@ -23,36 +35,37 @@ const SKILL_CATEGORIES = [
     icon: "🗄️",
     accent: "#10b981",
     skills: [
+      { name: "MySQL", color: "#4479A1", icon: "🐬" },
       { name: "MongoDB", color: "#47A248", icon: "🍃" },
-      { name: "Node.js", color: "#68A063", icon: "🟢" },
-      { name: "MySQL", color: "#ED8B00", icon: "☕" },
     ],
   },
   {
     key: "controls",
-    label: "Controls",
+    label: "Tools & Controls",
     icon: "🔧",
     accent: "#f59e0b",
     skills: [
-      { name: "XAMPP", color: "#43B02A", icon: "🔬" },
+      { name: "Git", color: "#F05032", icon: "🔀" },
       { name: "Postman", color: "#FF6C37", icon: "📮" },
+      { name: "XAMPP", color: "#FB7A24", icon: "🔬" },
     ],
   },
 ];
 
 const EXPERIENCE = [
-  {
-    role: "Web Developer Intern",
-    company: "Ascox Technosoft Pvt ltd",
-    duration: "Jul 2025 ",
-    type: "Summer Internship",
-    accent: "#06b6d4",
-    icon: "🚀",
+ {
+    role: "Java Full Stack Development Intern",
+    company: "JD Software Pvt Ltd",
+    location: "Kolapakkam, Chennai",
+    duration: "June 2026 – July 2026",
+    type: "Internship",
+    accent: "#3b82f6",
+    icon: "💻",
     points: [
-      "Built a dynamic courier management system using PHP and MySQL to automate order processing and shipment tracking.",
-      "Developed an interactive user dashboard for real-time delivery status updates and package management.",
-      "Integrated Bootstrap for a fully responsive UI and utilized the FPDF library to generate automated digital receipts.",
-      "Managed backend data persistence and relational mapping using MySQL within a XAMPP development environment."
+      "Developed robust backend services and RESTful APIs using Java and Spring Boot to support scalable web applications.",
+      "Architected and implemented microservice architecture patterns and integrated applications with MySQL databases.",
+      "Built responsive and interactive user interfaces using HTML5, CSS3, and TypeScript for seamless end-to-end user experiences.",
+      "Optimized overall web application performance and ensured cross-browser compatibility across different devices."
     ],
   },
   {
@@ -70,6 +83,20 @@ const EXPERIENCE = [
       "Focused on UI/UX principles to create an intuitive navigation flow for students to manage their daily schedules efficiently."
     ],
   },
+  {
+    role: "Web Developer Intern",
+    company: "Ascox Technosoft Pvt ltd",
+    duration: "Jul 2025 ",
+    type: "Summer Internship",
+    accent: "#06b6d4",
+    icon: "🚀",
+    points: [
+      "Built a dynamic courier management system using PHP and MySQL to automate order processing and shipment tracking.",
+      "Developed an interactive user dashboard for real-time delivery status updates and package management.",
+      "Integrated Bootstrap for a fully responsive UI and utilized the FPDF library to generate automated digital receipts.",
+      "Managed backend data persistence and relational mapping using MySQL within a XAMPP development environment."
+    ],
+  },
 ];
 
 const EDUCATION = [
@@ -78,7 +105,7 @@ const EDUCATION = [
     branch: "Computer Science & Engineering",
     institution: "Indra Ganesan College of Engineering-Tiruchirappalli",
     duration: "2022 – 2026",
-    grade: "CGPA: 8.46 / 10",
+    grade: "CGPA: 8.63 / 10",
     icon: "🎓",
     accent: "#8b5cf6",
   },
@@ -94,6 +121,14 @@ const EDUCATION = [
 ];
 
 const CERTIFICATIONS = [
+  {
+    title: "Java Full Stack Development",
+    issuer: "JD Software Pvt Ltd",
+    date: "2026",
+    icon: "💻",
+    accent: "#3b82f6",
+    badge: "Full Stack",
+  },
   {
     title: "Frontend Developement",
     issuer: "BDreamz Global solution Pvt ltd ",
@@ -130,6 +165,34 @@ const CERTIFICATIONS = [
 
 const PROJECTS = [
   {
+    title: "Task-Suite-Management-System ",
+    badge: "🏆 Persional Project ",
+    description:
+      "Developed a full-stack enterprise task and project management suite with role-based access control for Admins, Managers, and Employees. Designed a responsive, modern UI using Angular and Angular Material, and implemented secure authentication with JWT and Spring Boot.",
+    tech: ["HTML5", "CSS3", "TypeScript", "Angular", "Java", "Spring Boot", "MySQL"],
+    accent: "#6366f1",
+    accentSoft: "rgba(99,102,241,0.12)",
+    icon: "🌐",
+    preview: ["#1a1a2e", "#16213e", "#0f3460"],
+    number: "01",
+    github: "https://github.com/BALAMURUGAN-4735/Task_Management_System",
+    live: "https://task-management-system-9kqe.vercel.app/login",
+  },
+  {
+    title: "ECommerce-Platform",
+    badge: "🏆 Internship Project ",
+    description:
+      "Developed a scalable multi-service E-Commerce platform featuring Admin management, Delivery partner dispatch, and real-time shipment tracking.Implemented robust microservices architecture with automated data seeding, OTP-based order verification, multi-stage delivery attempt tracking, and automated refund processing.",
+    tech: ["HTML5", "CSS3", "TypeScript", "Angular", "Java", "Spring Boot", "FPDF", "MySQL"],
+    accent: "#6366f1",
+    accentSoft: "rgba(99,102,241,0.12)",
+    icon: "💻",
+    preview: ["#1a1a2e", "#16213e", "#0f3460"],
+    number: "02",
+    github: "https://github.com/BALAMURUGAN-4735/ECommerce",
+    live: "https://e-commerce-hosting-code-theta.vercel.app/",
+  },
+  {
     title: "Smart-Student-Life-Manager",
     badge: "🏆 Internship Project ",
     description:
@@ -139,7 +202,7 @@ const PROJECTS = [
     accentSoft: "rgba(99,102,241,0.12)",
     icon: "🔍",
     preview: ["#1a1a2e", "#16213e", "#0f3460"],
-    number: "01",
+    number: "03",
     github: "https://github.com/BALAMURUGAN-4735/Smart-Student-life-Manager",
     live: "https://balamurugan-4735.github.io/Smart-Student-life-Manager/",
   },
@@ -153,7 +216,7 @@ const PROJECTS = [
     accentSoft: "rgba(6,182,212,0.12)",
     icon: "🚀",
     preview: ["#0d1f2d", "#1a3a4a", "#0f4c5c"],
-    number: "02",
+    number: "04",
     github: "https://github.com/BALAMURUGAN-4735/Quick-Courier-Service",
     live: "https://courier-service.infinityfreeapp.com/?i=1",
   },
@@ -163,7 +226,7 @@ export default function Portfolio() {
   const [activeSection, setActiveSection] = useState("Home");
   const [scrolled, setScrolled] = useState(false);
   const [typed, setTyped] = useState("");
-  const fullText = "Frontend Developer";
+  const fullText = "Java Full Stack Developer";
 
   useEffect(() => {
     let i = 0;
@@ -389,7 +452,7 @@ export default function Portfolio() {
             <span className="cursor" style={{ color:"#6366f1" }}>|</span>
           </p>
           <p style={{ fontSize:15, color:"#475569", maxWidth:560, margin:"0 auto 40px", lineHeight:1.8 }}>
-            I build performant React apps, craft MERN backends, and validate every feature with a rigorous QA mindset.
+            I build performant responsive and  scalable web applications, craft Java Spring Boot backends, and validate every feature with a rigorous QA mindset.
           </p>
           <div style={{ display:"flex", gap:16, justifyContent:"center", flexWrap:"wrap" }}>
             <button className="pulse-btn" onClick={() => scrollTo("Projects")}
@@ -397,11 +460,11 @@ export default function Portfolio() {
               View My Work →
             </button>
             {/* 👁️ View Button — opens in new tab */}
-            <a href="/Balamurugan_BE(CSE)_2026_8.46-CGPA_Frontend.pdf"target="_blank"rel="noopener noreferrer"style={{background:"transparent", color:"#818cf8",border:"1px solid rgba(99,102,241,0.45)",borderRadius:12, padding:"14px 22px",fontSize:15, fontWeight:600, textDecoration:"none",display:"flex", alignItems:"center", gap:8 }}>
+            <a href="/Balamurugan_BE(CSE)_2026_8.63-CGPA_Java-FullStack.pdf"target="_blank"rel="noopener noreferrer"style={{background:"transparent", color:"#818cf8",border:"1px solid rgba(99,102,241,0.45)",borderRadius:12, padding:"14px 22px",fontSize:15, fontWeight:600, textDecoration:"none",display:"flex", alignItems:"center", gap:8 }}>
              👁️ View Resume
             </a>
            {/* ⬇️ Download Button */}
-            <a href="/Balamurugan_BE(CSE)_2026_8.46-CGPA_Frontend.pdf" download style={{ background:"transparent", color:"#818cf8", border:"1px solid rgba(99,102,241,0.45)", borderRadius:12, padding:"14px 32px", fontSize:15, fontWeight:600, textDecoration:"none" }}>
+            <a href="/Balamurugan_BE(CSE)_2026_8.63-CGPA_Java-FullStack.pdf" download style={{ background:"transparent", color:"#818cf8", border:"1px solid rgba(99,102,241,0.45)", borderRadius:12, padding:"14px 32px", fontSize:15, fontWeight:600, textDecoration:"none" }}>
               ⬇ Download Resume
             </a>
           </div>
@@ -414,17 +477,17 @@ export default function Portfolio() {
         <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fit,minmax(280px,1fr))", gap:40, alignItems:"center", marginTop:48 }}>
           <div style={{ display:"flex", justifyContent:"center" }}>
             <div className="floating" style={{ width:220, height:220, borderRadius:"50%", background:"linear-gradient(135deg,#6366f1,#06b6d4)", padding:4 }}>
-              <div style={{ width:"100%", height:"100%", borderRadius:"50%", background:"#0f0f1a", display:"flex", alignItems:"center", justifyContent:"center", fontSize:72 }}><img src='/Profile_Image.jpg' alt="Balamurugan" style={{ width:"100%", height:"100%", borderRadius:"100%", objectFit:"cover", objectPosition:"center50%" }} /></div>
+              <div style={{ width:"100%", height:"100%", borderRadius:"50%", background:"#0f0f1a", display:"flex", alignItems:"center", justifyContent:"center", fontSize:72 }}><img src='/Profile_Image.png' alt="Balamurugan" style={{ width:"100%", height:"100%", borderRadius:"100%", objectFit:"cover", objectPosition:"center50%" }} /></div>
             </div>
           </div>
           <div>
             <p style={{ fontSize:16, color:"#94a3b8", lineHeight:1.9, marginBottom:24 }}>
-              I'm a passionate Frontend Developer with a growing edge in Full-Stack engineering — building performant web apps with{" "}
-              <span style={{ color:"#818cf8" }}>React, Node.js, MySQL and MongoDB </span>. I blend development with a testing mindset, leveraging tools like{" "}
+              I'm a passionate Java Full Stack Developer with a growing edge in Full-Stack engineering — building performant web apps with{" "}
+              <span style={{ color:"#818cf8" }}>Java, Spring Boot, Micro Service Architecture, OOPS, MySQL and MongoDB </span>. I blend development with a testing mindset, leveraging tools like{" "}
               <span style={{ color:"#06b6d4" }}>Postman</span> to ensure every feature I ship is rock solid.
             </p>
             <div style={{ display:"flex", flexWrap:"wrap", gap:12 }}>
-              {[["🎓","B.E. Graduate"],["💡","MERN Stack"],["🔬","QA & Testing"],["📍","Open to Work"]].map(([icon,label]) => (
+              {[["🎓","B.E. Graduate"],["💡","Java Full Stack"],["🔬","QA & Testing"],["📍","Open to Work"]].map(([icon,label]) => (
                 <div key={label} style={{ background:"rgba(99,102,241,0.08)", border:"1px solid rgba(99,102,241,0.2)", borderRadius:8, padding:"8px 16px", fontSize:13, color:"#a5b4fc", display:"flex", gap:6, alignItems:"center" }}>
                   <span>{icon}</span><span>{label}</span>
                 </div>
@@ -548,7 +611,7 @@ export default function Portfolio() {
       <footer style={{ textAlign:"center", padding:"32px 24px", borderTop:"1px solid rgba(99,102,241,0.1)", color:"#334155", fontSize:13 }}>
         <span style={{ color:"#475569" }}>Built with </span>
         <span style={{ color:"#6366f1" }}>⚛️ React</span>
-        <span style={{ color:"#475569" }}> · Designed with ❤️ by a Frontend Developer</span>
+        <span style={{ color:"#475569" }}> · Designed with ❤️ by a Full Stack Developer</span>
         <br /><span style={{ color:"#1e293b", marginTop:4, display:"block" }}>© 2026 Balamurugan Portfolio. All rights reserved.</span>
       </footer>
     </div>
