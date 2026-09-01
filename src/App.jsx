@@ -71,7 +71,7 @@ const EXPERIENCE = [
   {
     role: "Frontend Developer Intern",
     company: "BDreamz Global Solutions",
-    duration: "Jan 2026 –  Present",
+    duration: "Jan 2026 –  Apr 2026",
     type: "Internship",
     accent: "#06b6d4",
     icon: "👨‍💻",
@@ -518,7 +518,7 @@ export default function Portfolio() {
       {/* ══ EXPERIENCE ══ */}
       <section id="experience" style={{ padding:"100px 24px", background:"rgba(6,182,212,0.025)" }}>
         <div style={{ maxWidth:1100, margin:"0 auto" }}>
-          <SectionTitle label="Experience" sub="Where I've Worked" />
+          <SectionTitle label=" Internship Experience" sub="Where I've Worked" />
           <div style={{ marginTop:52, display:"flex", flexDirection:"column", gap:28 }}>
             {EXPERIENCE.map((exp) => (
               <div key={exp.role} style={{ background:"#0e0e1c", border:"1px solid rgba(255,255,255,0.07)", borderRadius:20, padding:"28px 32px", display:"flex", gap:24, alignItems:"flex-start", position:"relative", overflow:"hidden" }}>
